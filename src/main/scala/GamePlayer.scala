@@ -2,8 +2,9 @@ import scala.util.Random
 
 object GamePlayer extends App {
 
-  val firstPlayer = new Player("Vusi")
-  val secondPlayer = new Player("Dalisani")
+
+  val firstPlayer = new Player("FirstPlayer")
+  val secondPlayer = new Player("SecondPlayer")
   val random = Random// random generate score
 
   var setWinnerStatus = false
@@ -13,6 +14,9 @@ object GamePlayer extends App {
 
   val matchGames = new Match()
 
+  setGames.playSetGames(firstPlayer, secondPlayer)
+
+  /***
   while(setWinnerStatus == false) {
 
     firstPlayer.score = random.nextInt(100)
@@ -39,10 +43,11 @@ object GamePlayer extends App {
         println(s" ${secondPlayer.name } won SET games won score ${secondPlayer.gamesWon} - ${firstPlayer.gamesWon} " +
           s" with games won greater then ${setGames.maximumGamesWon} and game margin greater then ${setGames.minimumGamesWonMargin}")
       }
-    }
+    }***/
 
 
-  }
+
+
 
 
 
