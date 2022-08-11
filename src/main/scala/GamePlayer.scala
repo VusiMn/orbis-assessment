@@ -7,6 +7,7 @@ object GamePlayer extends App {
   val random = Random// random generate score
 
   var setWinnerStatus = false
+  var numberSetsWon = 0
 
   val setGames = new SetGames()
 
@@ -22,6 +23,8 @@ object GamePlayer extends App {
       setWinnerStatus = setGames.setWon(firstPlayer.gamesWon, secondPlayer.gamesWon)
       println(s" ${firstPlayer.name } won a game score ${firstPlayer.score} - ${secondPlayer.score}")
       if(setWinnerStatus){
+        numberSetsWon += 1
+        firstPlayer.setsWon += 1
         println(s" ${firstPlayer.name } Won a SET games won score ${firstPlayer.gamesWon} - ${secondPlayer.gamesWon} " +
           s" with games won greater then ${setGames.maximumGamesWon} and game margin greater then ${setGames.minimumGamesWonMargin}")
       }
@@ -31,6 +34,8 @@ object GamePlayer extends App {
       println(s" ${secondPlayer.name } won a game score ${secondPlayer.score} - ${firstPlayer.score}")
 
       if(setWinnerStatus){
+        numberSetsWon += 0
+        secondPlayer.setsWon += 1
         println(s" ${secondPlayer.name } won SET games won score ${secondPlayer.gamesWon} - ${firstPlayer.gamesWon} " +
           s" with games won greater then ${setGames.maximumGamesWon} and game margin greater then ${setGames.minimumGamesWonMargin}")
       }

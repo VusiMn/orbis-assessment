@@ -5,28 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a841785a-364e-4707-abc1-045b8b2fce85" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/GamePlayer.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/GameRules.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Match.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MatchX.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Player.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/ScoreBoard.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Set.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$0aa0383adcfc2f08e1ce$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$0aa0383adcfc2f08e1ce.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$0aa0383adcfc2f08e1ce.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$38980c23d0046afe07b6$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$38980c23d0046afe07b6.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$38980c23d0046afe07b6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$94654e373b3aabeeffd8$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$94654e373b3aabeeffd8.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$94654e373b3aabeeffd8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$ee407b29beab9cb90040$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$ee407b29beab9cb90040.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$ee407b29beab9cb90040.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/HelloWorld$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/HelloWorld$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/update/update_cache_2.13/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/update/update_cache_2.13/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/GamePlayer.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/GamePlayer.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +66,14 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.GamePlayer">
+    <configuration name="GamePlayer" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="GamePlayer" />
+      <module name="orbis-assessment" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="HelloWorld" />
       <module name="orbis-assessment" />
@@ -116,6 +102,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GamePlayer" />
         <item itemvalue="Application.HelloWorld" />
       </list>
     </recent_temporary>
@@ -131,7 +118,7 @@
       <workItem from="1660147453490" duration="2149000" />
       <workItem from="1660220696618" duration="30000" />
       <workItem from="1660220739682" duration="665000" />
-      <workItem from="1660224459085" duration="6257000" />
+      <workItem from="1660224459085" duration="8639000" />
     </task>
     <servers />
   </component>
