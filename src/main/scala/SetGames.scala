@@ -1,7 +1,6 @@
 import scala.util.Random
 
 class SetGames {
-
   // sets care about games won
   val minimumGamesWonMargin = 2
   val maximumGamesWon = 6
