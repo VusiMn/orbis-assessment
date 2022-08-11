@@ -1,4 +1,3 @@
-import scala.math.random
 import scala.util.Random
 
 class SetGames {
