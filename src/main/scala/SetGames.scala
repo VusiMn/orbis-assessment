@@ -15,7 +15,7 @@ class SetGames {
 
 
   def playSetGames(firstPlayer: Player, secondPlayer: Player): Unit = {
-
+    println("New Set Games Started")
     var setWinnerStatus = false
 
     while (setWinnerStatus == false) {

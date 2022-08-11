@@ -7,6 +7,7 @@
     <list default="true" id="a841785a-364e-4707-abc1-045b8b2fce85" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/GamePlayer.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/GamePlayer.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/Player.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Player.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/SetGames.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/SetGames.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -120,7 +121,7 @@
       <workItem from="1660147453490" duration="2149000" />
       <workItem from="1660220696618" duration="30000" />
       <workItem from="1660220739682" duration="665000" />
-      <workItem from="1660224459085" duration="9445000" />
+      <workItem from="1660224459085" duration="10745000" />
     </task>
     <servers />
   </component>
